@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git add -A
+
 gitbook build
 git checkout --orphan gh-pages
 git rm --cached -r .
